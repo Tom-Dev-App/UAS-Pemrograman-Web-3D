@@ -1,0 +1,39 @@
+@media (min-width: 576px) { #navbar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+} }
+
+
+main section header {
+  font-size: 2rem;
+  margin-top: 1.5em;
+}
+
+main section {
+  padding: 1.5rem;
+  font-family: Sans-Serif;
+}
+
+main section code {
+  padding: .5rem;
+  display: block;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: semibold;
+  background: rgba(0, 0, 0, 0.15);
+  color: rgb(50,50,150);
+}
+
+main section p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#navbar a {
+  display: inline-block;
+  margin: 0.3rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}

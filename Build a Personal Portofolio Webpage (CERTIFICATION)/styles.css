@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+#navbar {
+  height: 4rem;
+  width: 100vw;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 30, 50, 1);
+  margin: 0 0;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(100, 150, 160);
+  font-size: 2rem;
+  padding: 0.2em;
+  font-weight: semibold;
+  margin: 0 5px;
+  border-radius: 4px;
+  transition: 300ms;
+}
+
+#navbar a:hover {
+  text-decoration: none;
+  color: rgb(22, 99, 115);
+  background: rgb(198, 231, 219);
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+#welcome-section h1 {
+  font-size: 2rem;
+  color: rgba(0, 30, 150, 1);
+  line-height: 1.3em;
+  margin: 0 0;
+}
+
+#welcome-section span {
+  font-size: 1rem;
+  color: rgba(0, 100, 150, 1);
+}
+
+@media screen and (min-width: 325px) {
+  #navbar a {
+    font-size: 1.5rem;
+  }
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100vw;
+  background-color: rgba(0, 30, 50, 1);
+  color: rgba(200, 200, 200, 1);
+}
+
+#projects .project-tile {
+  font-size: 2.7rem;
+  color: rgb(194, 199, 219);
+  line-height: 1.3em;
+  margin: 0 0;
+}
+
+#profile-link {
+  font-size: 1.2rem;
+  color: #0275d8;
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  transition: 300ms;
+}
+
+#profile-link:hover {
+  opacity: 0.85;
+  border: 2px solid #0275d8;
+  color: white;
+}
